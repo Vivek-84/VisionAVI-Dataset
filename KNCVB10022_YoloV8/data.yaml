@@ -1,0 +1,13 @@
+train: ../images/train
+val: ../images/valid
+test: ../images/test
+
+nc: 17
+names: ['angryface', 'auto', 'bicycle', 'bus', 'car', 'happyface', 'motorcycle', 'neutralface', 'numberplate', 'person', 'pole', 'road', 'road_cross', 'sadface', 'sidewalk', 'truck', 'van']
+
+roboflow:
+  workspace: dimensions
+  project: road_safety-vyyma
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dimensions/road_safety-vyyma/dataset/1
